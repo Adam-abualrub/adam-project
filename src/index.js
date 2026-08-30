@@ -7,7 +7,7 @@ const todos =[
 
 function checkdone(item){
  console.log(item.done)
- return item.done == false
+ return item.done 
 }
 const filteredTodos = todos.filter(checkdone)
  console.log(filteredTodos)
